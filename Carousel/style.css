@@ -1,0 +1,38 @@
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#carousel {
+  border: 5px solid;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#carousel ul {
+	list-style: none;
+	width: 2000px;
+	height: 300px;
+	padding: 0;
+	display: inline-flex;
+	
+}
+#carousel img {
+	width: 400px;
+	height: 310px;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+nav a {
+	background: #1B95E0;
+	padding: 20px;
+}
+nav .fa-angle-left {
+	margin-right: 315px;
+}
