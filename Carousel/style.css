@@ -29,10 +29,19 @@ nav {
 	justify-content: center;
 	align-content: center;
 }
-nav a {
+nav .fa {
 	background: #1B95E0;
 	padding: 20px;
 }
 nav .fa-angle-left {
-	margin-right: 315px;
+	margin-right: 80px;
+}
+nav .fa-angle-right {
+	margin-left: 80px;
+}
+nav .dot {
+	background: #ccc;
+	padding: 5px;
+	border-radius: 50%;
+	margin: 0 10px 0 10px;
 }
